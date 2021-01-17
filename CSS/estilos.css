@@ -193,12 +193,12 @@ article.gal__cont img:hover {
   .grid-bio {
     grid-template-areas: "pao " "img1 " "escuela " "img2 " "footer ";
     grid-template-columns: auto;
-    grid-template-rows: 25% 15% 25% 15% auto;
+    grid-template-rows: 30% 15% 30% 15% auto;
     grid-column-gap: 2px;
     grid-row-gap: 2px;
     margin: 0;
     padding: 0;
-    height: 70; }
+    height: auto; }
   .header__box {
     width: 100%; }
   div#collapsibleNavbar {
