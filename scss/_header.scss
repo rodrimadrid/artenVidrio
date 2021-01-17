@@ -1,0 +1,33 @@
+.header__box{
+  background-color: #ffffff;
+  width: 20em;
+  height: 90%;
+  margin: 5px;
+  padding: 2px;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+.header__box__logo {
+  font-size: 4.8em;
+  font-family: 'Amatic SC', cursive;
+  color: #cbba15;
+  text-align: center;
+  height: 80%;
+}
+.box__logo--a{
+  text-decoration: none;
+  color: #cbba15;
+
+}
+h1:hover a.box__logo--a{
+  text-decoration: none;
+  color: #cbba15;
+}
+.header__box__sub{
+  color: red;
+  position: relative;
+  text-align: center;
+  font-size: 1.4em;
+  bottom: 15%;
+  font-family: cursive, serif;
+}
