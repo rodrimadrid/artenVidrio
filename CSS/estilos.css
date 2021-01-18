@@ -128,9 +128,9 @@ article.gal__cont img:hover {
 
 .grid-cursos {
   display: grid;
-  grid-template-areas: "encabezado .." "tabla desc" "tabla desc" "footer footer";
+  grid-template-areas: "encabezado .." "tabla desc" "desc2 desc2" "footer footer";
   grid-template-columns: 45% 55%;
-  grid-template-rows: 15% 45% 45% 15%;
+  grid-template-rows: 10% 35% 45% 15%;
   grid-column-gap: 5px;
   grid-row-gap: 5px; }
 
@@ -185,45 +185,13 @@ article.gal__cont img:hover {
   grid-area: desc;
   margin: 30px; }
 
-.encabezado {
-  grid-area: encabezado;
+.desc2 {
+  grid-area: desc2;
   margin: 30px; }
 
-@media (max-width: 770px) {
-  .grid-bio {
-    grid-template-areas: "pao " "img1 " "escuela " "img2 " "footer ";
-    grid-template-columns: auto;
-    grid-template-rows: 25% 15% 25% 15% auto;
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
-    margin: 0;
-    padding: 0;
-    height: 70; }
-  .header__box {
-    width: 100%; }
-  div#collapsibleNavbar {
-    background-color: #343a40;
-    border: 3px;
-    border-style: solid;
-    border-color: grey;
-    z-index: 100;
-    font-size: 0.8em; }
-  li {
-    margin: 3px;
-    padding: 0; }
-  .nav-link_sub {
-    font-size: 15px;
-    margin: 2px;
-    padding: 0; }
-  li ul {
-    background-color: #4da0a6;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 2px;
-    left: 33%; }
-  li:hover ul {
-    height: auto; } }
+.encabezado {
+  grid-area: encabezado;
+  margin: 30px 0 0 30px; }
 
 @media (max-width: 770px) {
   .grid-bio {
@@ -236,11 +204,15 @@ article.gal__cont img:hover {
     padding: 0;
     height: auto; }
   .grid-cursos {
-    grid-template-areas: "encabezado" "tabla" "desc" "footer";
+    grid-template-areas: "encabezado" "tabla" "desc" "desc2" "footer";
     grid-template-columns: auto;
-    grid-template-rows: 10% 25% 45% auto;
+    grid-template-rows: 8% 18% 25% 20% auto;
     grid-column-gap: 5px;
     grid-row-gap: 5px; }
+  .encabezado {
+    margin: 30px 30px 0 30px; }
+  .tabla {
+    margin: 0 30px 15px 30px; }
   .header__box {
     width: 100%; }
   div#collapsibleNavbar {
