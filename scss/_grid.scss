@@ -105,3 +105,54 @@
   grid-area: encabezado;
   margin: $my_margin;
 }
+@media (max-width: 770px){
+
+    .grid-bio{
+      grid-template-areas:
+      "pao "
+      "img1 "
+      "escuela "
+      "img2 "
+      "footer ";
+      grid-template-columns:  auto;
+      grid-template-rows: 25% 15% 25% 15% auto ;
+      grid-column-gap: 2px;
+      grid-row-gap: 2px;
+      margin: 0;
+      padding: 0;
+      height: 70;
+    }
+    .header__box{
+      width: 100%;
+    }
+    div#collapsibleNavbar{
+      background-color: #343a40;
+      border: 3px;
+      border-style: solid;
+      border-color: grey;
+      z-index: 100;
+      font-size: 0.8em;
+
+    }
+    li{
+      margin: 3px;
+      padding: 0;
+    }
+    .nav-link_sub{
+      font-size: 15px;
+      margin: 2px;
+      padding: 0;
+    }
+
+    li ul{
+        background-color: #4da0a6;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 2px;
+        left: 33%;
+      }
+      li:hover ul{
+        height: auto ;
+    }
+}
