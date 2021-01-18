@@ -199,6 +199,12 @@ article.gal__cont img:hover {
     margin: 0;
     padding: 0;
     height: auto; }
+  .grid-cursos {
+    grid-template-areas: "encabezado" "tabla" "desc" "footer";
+    grid-template-columns: auto;
+    grid-template-rows: 10% 25% 45% auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; }
   .header__box {
     width: 100%; }
   div#collapsibleNavbar {
