@@ -100,10 +100,12 @@
 .desc{
   grid-area: desc;
   margin: $my_margin;
+  text-align: justify;
 }
 .desc2{
   grid-area: desc2;
   margin: $my_margin;
+  text-align: justify;
 }
 .encabezado{
   grid-area: encabezado;

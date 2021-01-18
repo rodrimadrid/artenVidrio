@@ -32,9 +32,11 @@ body{
 
 .pao__items{
   @include set(0, none, 0, center);
+  text-align: justify;
 }
 .escuela__items{
   @extend.pao__items;
+  text-align: justify;
 }
 .escuela__items--red{
   color: #ad1305;
@@ -60,6 +62,11 @@ body{
 .container-fluid__h2{
   margin: 25px 0 5px 1.3rem;
   font-size: 2rem;
+}
+.container-fluid__p{
+  margin: 1.3rem ;
+  margin-top: 5px;
+  text-align: justify;
 }
 .container__h2{
   margin: 25px 0 ;

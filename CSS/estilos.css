@@ -23,7 +23,11 @@ body {
   border: 0;
   border-style: none;
   margin: 0;
-  align-self: center; }
+  align-self: center;
+  text-align: justify; }
+
+.escuela__items {
+  text-align: justify; }
 
 .escuela__items--red {
   color: #ad1305;
@@ -57,6 +61,11 @@ body {
 .container-fluid__h2 {
   margin: 25px 0 5px 1.3rem;
   font-size: 2rem; }
+
+.container-fluid__p {
+  margin: 1.3rem;
+  margin-top: 5px;
+  text-align: justify; }
 
 .container__h2 {
   margin: 25px 0;
@@ -183,11 +192,13 @@ article.gal__cont img:hover {
 
 .desc {
   grid-area: desc;
-  margin: 30px; }
+  margin: 30px;
+  text-align: justify; }
 
 .desc2 {
   grid-area: desc2;
-  margin: 30px; }
+  margin: 30px;
+  text-align: justify; }
 
 .encabezado {
   grid-area: encabezado;
