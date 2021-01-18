@@ -57,6 +57,7 @@ body{
 .container-fluid__img{
   @include set(3px, solid, 1.3rem, center);
   margin-top: 5px;
+  margin-left: 0;
 }
 
 .container-fluid__h2{
