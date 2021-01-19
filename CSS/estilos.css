@@ -1,10 +1,11 @@
 body {
-  background-image: linear-gradient(#5c7377, #539296, #5c7377); }
+  background-color: #474d4b; }
 
 .carousel-item_img {
   border: 3px;
   border-style: solid;
-  border-color: black; }
+  border-color: black;
+  width: 100%; }
 
 .tabla__inst {
   list-style-type: square;
