@@ -1,7 +1,14 @@
+body {
+  background-color: #d6d1b1; }
+
 .carousel-item_img {
   border: 3px;
   border-style: solid;
   border-color: black; }
+
+.carousel-inner--align {
+  text-align: center;
+  margin-top: 1%; }
 
 .tabla__inst {
   list-style-type: square;
@@ -102,10 +109,6 @@ article.gal__cont img:hover {
   border-style: solid;
   transition: 1s; }
 
-.carousel-inner--align {
-  text-align: center;
-  margin-top: 1%; }
-
 .nosotros__box {
   display: flex;
   flex-flow: row nowrap;
@@ -118,7 +121,10 @@ article.gal__cont img:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 45%; }
+  width: 45%;
+  font-family: 'Alegreya', serif;
+  font-size: 3.5rem;
+  margin-left: 15px; }
 
 .grid-bio {
   display: grid;
@@ -162,7 +168,7 @@ article.gal__cont img:hover {
   justify-content: center;
   background-image: url("../Images/Noche estrellada.jpg");
   background-position: center;
-  border: 3px;
+  border: 1px;
   border-style: solid;
   border-color: white; }
 
@@ -343,15 +349,8 @@ li ul {
   border: none;
   border-style: ridge; }
 
-.footer__pie {
+.footer__text {
   align-self: end;
-  background-image: url("../Images/Noche estrellada.jpg");
-  background-position: bottom;
-  border: 3px;
-  border-style: solid;
-  border-color: black; }
-
-.footer__pie--txt {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   text-align: center;

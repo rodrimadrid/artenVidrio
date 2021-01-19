@@ -1,8 +1,7 @@
 @import "variables";
 body{
-
+  background-color: #d6d1b1;
 }
-
 
 @mixin set($border, $style, $margin, $align) {
   border: $border;
@@ -14,7 +13,10 @@ body{
   border: 3px;
   border-style: solid;
   border-color: black;
-
+}
+.carousel-inner--align{
+  text-align: center;
+  margin-top: 1%;
 }
 .tabla__inst{
   list-style-type: square;
@@ -109,10 +111,7 @@ article.gal__cont img:hover {
   border-style: solid;
   transition: 1s;
 }
-.carousel-inner--align{
-  text-align: center;
-  margin-top: 1%;
-}
+
 .nosotros__box{
   display: flex;
   flex-flow: row nowrap;
@@ -127,6 +126,9 @@ article.gal__cont img:hover {
   align-items: center;
   justify-content: center;
   width: 45%;
+  font-family: 'Alegreya', serif;
+  font-size: 3.5rem;
+  margin-left: 15px; 
 }
 .box__img{
 
