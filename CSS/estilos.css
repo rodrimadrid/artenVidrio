@@ -1,5 +1,5 @@
 body {
-  background-color: #d6d1b1; }
+  background-color: #fcfedd; }
 
 .carousel-item_img {
   border: 3px;
@@ -126,6 +126,23 @@ article.gal__cont img:hover {
   font-size: 3.5rem;
   margin-left: 15px; }
 
+.cursos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+
+.cursos__title {
+  width: 55%; }
+
+.cursos__trabajos {
+  width: 45%; }
+
+.trabajos__p {
+  width: 45%; }
+
+.title__p {
+  width: 45%; }
+
 .grid-bio {
   display: grid;
   grid-template-areas: "pao pao img1" "escuela escuela img2" "footer footer footer";
@@ -137,9 +154,9 @@ article.gal__cont img:hover {
 
 .grid-container {
   display: grid;
-  grid-template-areas: "nosotros nosotros" "div div" "footer footer";
+  grid-template-areas: "nosotros nosotros" "cursos cursos" "div div" "footer footer";
   grid-template-columns: 60% 40%;
-  grid-template-rows: 55% 45% auto;
+  grid-template-rows: 45% 30% 35% auto;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   margin: 0;
@@ -184,6 +201,10 @@ article.gal__cont img:hover {
 
 .nosotros {
   grid-area: nosotros; }
+
+.cursos {
+  grid-area: cursos;
+  margin: 30px; }
 
 .footer {
   grid-area: footer; }
@@ -348,6 +369,10 @@ li ul {
   text-decoration: none;
   border: none;
   border-style: ridge; }
+
+.navbar--log {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem; }
 
 .footer__text {
   align-self: end;

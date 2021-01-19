@@ -1,6 +1,6 @@
 @import "variables";
 body{
-  background-color: #d6d1b1;
+  background-color: #fcfedd;
 }
 
 @mixin set($border, $style, $margin, $align) {
@@ -128,8 +128,25 @@ article.gal__cont img:hover {
   width: 45%;
   font-family: 'Alegreya', serif;
   font-size: 3.5rem;
-  margin-left: 15px; 
+  margin-left: 15px;
 }
 .box__img{
 
+}
+.cursos{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.cursos__title{
+  width: 55%;
+}
+.cursos__trabajos{
+  width: 45%;
+}
+.trabajos__p{
+  width: 45%;
+}
+.title__p{
+  width: 45%;
 }

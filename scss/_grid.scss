@@ -17,10 +17,11 @@
   display: grid;
   grid-template-areas:
   "nosotros nosotros"
+  "cursos cursos"
   "div div"
   "footer footer";
   grid-template-columns: 60% 40%;
-  grid-template-rows: 55% 45% auto;
+  grid-template-rows: 45% 30% 35% auto;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   margin: 0;
@@ -73,6 +74,10 @@
 }
 .nosotros{
   grid-area: nosotros;
+}
+.cursos{
+  grid-area: cursos;
+  margin: $my_margin;
 }
 .footer{
   grid-area: footer;
