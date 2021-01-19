@@ -20,10 +20,9 @@
   "cursos cursos"
   "div div"
   "footer footer";
-  grid-template-columns: 60% 40%;
-  grid-template-rows: 45% 30% 35% auto;
+  grid-template-columns: 50% auto;
+  grid-template-rows: 60% 30% 35% auto;
   grid-column-gap: 5px;
-  grid-row-gap: 5px;
   margin: 0;
   height: auto;
 }
