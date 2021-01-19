@@ -1,11 +1,7 @@
-body {
-  background-color: #474d4b; }
-
 .carousel-item_img {
   border: 3px;
   border-style: solid;
-  border-color: black;
-  width: 100%; }
+  border-color: black; }
 
 .tabla__inst {
   list-style-type: square;
@@ -53,12 +49,13 @@ body {
   align-self: none; }
 
 .container-fluid__img {
-  border: 3px;
+  border: 1px;
   border-style: solid;
-  margin: 1.3rem;
+  margin: 0;
   align-self: center;
-  margin-top: 5px;
-  margin-left: 0; }
+  margin: 5px 0 1.3rem 0;
+  padding: 0;
+  width: 100%; }
 
 .container-fluid__h2 {
   margin: 25px 0 5px 1.3rem;
@@ -109,6 +106,20 @@ article.gal__cont img:hover {
   text-align: center;
   margin-top: 1%; }
 
+.nosotros__box {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end; }
+
+.box__text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 45%; }
+
 .grid-bio {
   display: grid;
   grid-template-areas: "pao pao img1" "escuela escuela img2" "footer footer footer";
@@ -120,9 +131,9 @@ article.gal__cont img:hover {
 
 .grid-container {
   display: grid;
-  grid-template-areas: "div" "footer";
-  grid-template-columns: 100%;
-  grid-template-rows: 80% auto;
+  grid-template-areas: "nosotros nosotros" "div div" "footer footer";
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 55% 45% auto;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   margin: 0;
@@ -130,9 +141,9 @@ article.gal__cont img:hover {
 
 .grid-nav {
   display: grid;
-  grid-template-areas: "header header header" "nav nav nav";
+  grid-template-areas: "nav nav nav" "header header header";
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 130px 70px;
+  grid-template-rows: 70px 130px;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   margin: 0; }
@@ -163,11 +174,10 @@ article.gal__cont img:hover {
 
 .div {
   grid-area: div;
-  background-image: url("../Images/Noche estrellada.jpg");
-  background-position: bottom;
-  border: 3px;
-  border-style: solid;
-  border-color: white; }
+  height: 33%; }
+
+.nosotros {
+  grid-area: nosotros; }
 
 .footer {
   grid-area: footer; }
@@ -252,7 +262,7 @@ article.gal__cont img:hover {
   li:hover ul {
     height: auto; }
   .container-fluid__div {
-    padding-left: 5px !important; } }
+    padding: 0 !important; } }
 
 .header__box {
   background-color: #ffffff;
