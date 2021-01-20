@@ -18,7 +18,7 @@ body{
 .carousel-inner--align{
   margin-top: 1%;
   margin-right: 1%;
-  text-align: right;
+  text-align: center;
 
 }
 .tabla__inst{
@@ -123,34 +123,52 @@ article.gal__cont img:hover {
   justify-content: flex-end;
   position: relative;
 }
-.box__text{
+.box__text {
   position: absolute;
-  top: 40%;
-  left: 20%;
+  top: 35%;
+  left: 5%;
   z-index: 1000;
   font-family: 'Alegreya', serif;
+}
+.slog{
   font-size: 3rem;
-
-
 }
 .box__img{
-  margin: 20px 5px 20px 15px ;
-  width: auto;
+  margin: 2rem 5px 20px 15px ;
+  width: 50%;
 }
-.cursos{
+.cursos__cont{
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  flex-flow: column;
 }
 .cursos__title{
-  width: 55%;
+
 }
 .cursos__trabajos{
-  width: 45%;
+  width: auto;
 }
 .trabajos__p{
-  width: 45%;
+  width: auto;
+  margin-right: 10px;
 }
 .title__p{
-  width: 45%;
+  width: auto;
+  margin-right: 10px;
 }
+.div__button{
+    border:  3px solid white;
+    background-color: rgba(38, 38, 38, 0.92);
+    padding: 10px;
+    margin: 10px;
+
+  }
+  .div__button--link{
+    color: yellow;
+    font-family: arial inherit;
+    font-weight: lighter;
+    text-decoration: none;
+  }
+ .div__button:hover a{
+   text-decoration: none;
+   color: yellow;
+ }

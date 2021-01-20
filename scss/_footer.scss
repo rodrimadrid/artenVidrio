@@ -1,9 +1,18 @@
+.footer__box{
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+}
 .footer__text{
     align-self: end;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     text-align: center;
     font-weight: bold;
+    color: white;
+    width: 50%;
+    margin: 20px 20px;
+    margin-bottom: 0;
 }
 .footer__pie--gal{
   padding: 0;
@@ -13,4 +22,12 @@
   border-style: solid;
   border-color: black;
   font-weight: bold;
+}
+.footer__box--logo{
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+  color: white;
+  width: 20%;
+  margin: 1rem;
+  margin-bottom: 0;
 }

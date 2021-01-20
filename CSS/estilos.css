@@ -10,7 +10,7 @@ body {
 .carousel-inner--align {
   margin-top: 1%;
   margin-right: 1%;
-  text-align: right; }
+  text-align: center; }
 
 .tabla__inst {
   list-style-type: square;
@@ -121,32 +121,48 @@ article.gal__cont img:hover {
 
 .box__text {
   position: absolute;
-  top: 40%;
-  left: 20%;
+  top: 35%;
+  left: 5%;
   z-index: 1000;
-  font-family: 'Alegreya', serif;
+  font-family: 'Alegreya', serif; }
+
+.slog {
   font-size: 3rem; }
 
 .box__img {
-  margin: 20px 5px 20px 15px;
-  width: auto; }
+  margin: 2rem 5px 20px 15px;
+  width: 50%; }
 
-.cursos {
+.cursos__cont {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between; }
-
-.cursos__title {
-  width: 55%; }
+  flex-flow: column; }
 
 .cursos__trabajos {
-  width: 45%; }
+  width: auto; }
 
 .trabajos__p {
-  width: 45%; }
+  width: auto;
+  margin-right: 10px; }
 
 .title__p {
-  width: 45%; }
+  width: auto;
+  margin-right: 10px; }
+
+.div__button {
+  border: 3px solid white;
+  background-color: rgba(38, 38, 38, 0.92);
+  padding: 10px;
+  margin: 10px; }
+
+.div__button--link {
+  color: yellow;
+  font-family: arial inherit;
+  font-weight: lighter;
+  text-decoration: none; }
+
+.div__button:hover a {
+  text-decoration: none;
+  color: yellow; }
 
 .grid-bio {
   display: grid;
@@ -159,9 +175,9 @@ article.gal__cont img:hover {
 
 .grid-container {
   display: grid;
-  grid-template-areas: "nosotros nosotros" "cursos cursos" "div div" "footer footer";
+  grid-template-areas: "nosotros nosotros" "cursos div" "cursos div" "footer footer";
   grid-template-columns: 50% auto;
-  grid-template-rows: 60% 30% 35% auto;
+  grid-template-rows: 65% 15% 10% 15%;
   grid-column-gap: 5px;
   margin: 0;
   height: auto; }
@@ -172,7 +188,6 @@ article.gal__cont img:hover {
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 70px 130px;
   grid-column-gap: 5px;
-  grid-row-gap: 5px;
   margin: 0; }
 
 .grid-cursos {
@@ -197,18 +212,21 @@ article.gal__cont img:hover {
   grid-area: nav;
   border: 3px;
   border-style: solid;
-  border-color: black; }
+  border-color: black;
+  background-color: #273a8a; }
 
 .div {
   grid-area: div;
-  height: 33%; }
+  margin: 30px;
+  margin-top: 0; }
 
 .nosotros {
   grid-area: nosotros; }
 
 .cursos {
   grid-area: cursos;
-  margin: 30px; }
+  margin: 30px;
+  margin-top: 0; }
 
 .footer {
   grid-area: footer; }
@@ -246,6 +264,43 @@ article.gal__cont img:hover {
 .encabezado {
   grid-area: encabezado;
   margin: 30px 0 0 30px; }
+
+@media (max-width: 976px) {
+  .grid-container {
+    grid-template-areas: "nosotros" "nosotros" "div" "cursos" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 25% 20% 20% auto;
+    height: auto;
+    grid-row-gap: 5px; }
+  .nosotros__box {
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    justify-content: start; }
+  .box__text {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    margin: 5px; }
+  .slog {
+    font-size: 2rem; }
+  .box__img {
+    width: 100%;
+    margin: 0; }
+  .carousel-item_img {
+    border: none; }
+  .div__button {
+    margin: 0; }
+  .div {
+    margin: 10px; }
+  .cursos {
+    margin: 10px; }
+  .footer__text {
+    text-align: center;
+    width: 100%;
+    margin: 20px 20px; } }
 
 @media (max-width: 770px) {
   .grid-bio {
@@ -378,12 +433,21 @@ li ul {
   font-family: 'Amatic SC', cursive;
   font-size: 2rem; }
 
+.footer__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
 .footer__text {
   align-self: end;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+  color: white;
+  width: 50%;
+  margin: 20px 20px;
+  margin-bottom: 0; }
 
 .footer__pie--gal {
   padding: 0;
@@ -393,3 +457,11 @@ li ul {
   border-style: solid;
   border-color: black;
   font-weight: bold; }
+
+.footer__box--logo {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+  color: white;
+  width: 20%;
+  margin: 1rem;
+  margin-bottom: 0; }

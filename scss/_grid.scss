@@ -17,11 +17,11 @@
   display: grid;
   grid-template-areas:
   "nosotros nosotros"
-  "cursos cursos"
-  "div div"
+  "cursos div"
+  "cursos div"
   "footer footer";
   grid-template-columns: 50% auto;
-  grid-template-rows: 60% 30% 35% auto;
+  grid-template-rows: 65% 15% 10% 15%;
   grid-column-gap: 5px;
   margin: 0;
   height: auto;
@@ -34,7 +34,6 @@
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 70px 130px;
   grid-column-gap: 5px;
-  grid-row-gap: 5px;
   margin: 0;
 }
 .grid-cursos{
@@ -65,11 +64,15 @@
   border: 3px;
   border-style: solid;
   border-color: black;
+  background-color: #273a8a;
 }
 
 .div{
   grid-area: div;
-  height: 33%;
+  margin: $my_margin;
+  margin-top: 0;
+
+
 }
 .nosotros{
   grid-area: nosotros;
@@ -77,6 +80,8 @@
 .cursos{
   grid-area: cursos;
   margin: $my_margin;
+  margin-top: 0;
+
 }
 .footer{
   grid-area: footer;
