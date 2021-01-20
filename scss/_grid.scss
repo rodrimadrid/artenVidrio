@@ -21,7 +21,7 @@
   "cursos div"
   "footer footer";
   grid-template-columns: 50% auto;
-  grid-template-rows: 65% 15% 10% 15%;
+  grid-template-rows: 65% 15% 25% 20%;
   grid-column-gap: 5px;
   margin: 0;
   height: auto;
@@ -61,10 +61,8 @@
 }
 .nav{
   grid-area: nav;
-  border: 3px;
-  border-style: solid;
-  border-color: black;
-  background-color: #273a8a;
+  
+  background-color: rgb(7, 72, 113);
 }
 
 .div{
@@ -85,6 +83,7 @@
 }
 .footer{
   grid-area: footer;
+  background-color: rgb(7, 72, 113);
 }
 .img1{
   grid-area: img1;

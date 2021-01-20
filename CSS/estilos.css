@@ -1,5 +1,5 @@
 body {
-  background-color: #fcfedd; }
+  background-color: white; }
 
 .carousel-item_img {
   border: 3px;
@@ -177,7 +177,7 @@ article.gal__cont img:hover {
   display: grid;
   grid-template-areas: "nosotros nosotros" "cursos div" "cursos div" "footer footer";
   grid-template-columns: 50% auto;
-  grid-template-rows: 65% 15% 10% 15%;
+  grid-template-rows: 65% 15% 25% 20%;
   grid-column-gap: 5px;
   margin: 0;
   height: auto; }
@@ -210,10 +210,7 @@ article.gal__cont img:hover {
 
 .nav {
   grid-area: nav;
-  border: 3px;
-  border-style: solid;
-  border-color: black;
-  background-color: #273a8a; }
+  background-color: #074871; }
 
 .div {
   grid-area: div;
@@ -229,7 +226,8 @@ article.gal__cont img:hover {
   margin-top: 0; }
 
 .footer {
-  grid-area: footer; }
+  grid-area: footer;
+  background-color: #074871; }
 
 .img1 {
   grid-area: img1;
@@ -269,7 +267,7 @@ article.gal__cont img:hover {
   .grid-container {
     grid-template-areas: "nosotros" "nosotros" "div" "cursos" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 20% 25% 20% 20% auto;
+    grid-template-rows: 18% 40% 20% 20% auto;
     height: auto;
     grid-row-gap: 5px; }
   .nosotros__box {
@@ -436,7 +434,7 @@ li ul {
 .footer__box {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-around; }
 
 .footer__text {
   align-self: end;
@@ -445,9 +443,8 @@ li ul {
   text-align: center;
   font-weight: bold;
   color: white;
-  width: 50%;
-  margin: 20px 20px;
-  margin-bottom: 0; }
+  width: 20%;
+  margin: 20px; }
 
 .footer__pie--gal {
   padding: 0;
@@ -463,5 +460,8 @@ li ul {
   font-size: 2rem;
   color: white;
   width: 20%;
-  margin: 1rem;
-  margin-bottom: 0; }
+  margin: 1rem; }
+
+.rs--img {
+  width: 2rem;
+  height: 2rem; }
