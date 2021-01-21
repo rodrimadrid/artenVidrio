@@ -90,8 +90,7 @@
 
 .gal {
   height: 100%;
-  background-image: url("../Images/Noche estrellada.jpg");
-  background-position: bottom; }
+  background-color: white; }
 
 .gal__cont {
   display: flex;
