@@ -1,14 +1,14 @@
-
+@media (max-width: 550px){
+}
 @media (max-width: 976px){
   .grid-container{
     grid-template-areas:
-    "nosotros"
     "nosotros"
     "div"
     "cursos"
     "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 18% 40% 20% 20% auto;
+    grid-template-rows: 45% 20% 30% 10%;
     height: auto;
     grid-row-gap: 5px;
   }
@@ -23,7 +23,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    text-align: left;
+    text-align: center;
     margin: 5px;
   }
   .slog{
