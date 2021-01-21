@@ -123,7 +123,6 @@ article.gal__cont img:hover {
   position: absolute;
   top: 35%;
   left: 5%;
-  z-index: 1000;
   font-family: 'Alegreya', serif; }
 
 .slog {
@@ -268,7 +267,7 @@ article.gal__cont img:hover {
   .grid-container {
     grid-template-areas: "nosotros" "div" "cursos" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 45% 20% 30% 10%;
+    grid-template-rows: 500px 20% 30% 10%;
     height: auto;
     grid-row-gap: 5px; }
   .nosotros__box {
@@ -324,10 +323,7 @@ article.gal__cont img:hover {
   .header__box {
     width: 100%; }
   div#collapsibleNavbar {
-    background-color: #343a40;
-    border: 3px;
-    border-style: solid;
-    border-color: grey;
+    background-color: #074871;
     z-index: 100;
     font-size: 0.8em; }
   li {
@@ -398,8 +394,7 @@ ul ul {
   position: absolute;
   transition: 1s;
   opacity: 0;
-  height: 0;
-  background-color: #074871 !important; }
+  height: 0; }
 
 ul li:hover a {
   color: white; }
