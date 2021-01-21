@@ -1,5 +1,5 @@
 @import "variables";
-body{
+.body--bg{
   background-color: white;
 }
 
@@ -141,18 +141,21 @@ article.gal__cont img:hover {
   flex-flow: column;
 }
 .cursos__title{
-
+font-family: 'Montserrat', sans-serif;
 }
 .cursos__trabajos{
   width: auto;
+  font-family: 'Montserrat', sans-serif;
 }
 .trabajos__p{
   width: auto;
   margin-right: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 .title__p{
   width: auto;
   margin-right: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 .div__button{
     border:  3px solid white;

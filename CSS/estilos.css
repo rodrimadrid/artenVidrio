@@ -1,4 +1,4 @@
-body {
+.body--bg {
   background-color: white; }
 
 .carousel-item_img {
@@ -136,16 +136,22 @@ article.gal__cont img:hover {
   display: flex;
   flex-flow: column; }
 
+.cursos__title {
+  font-family: 'Montserrat', sans-serif; }
+
 .cursos__trabajos {
-  width: auto; }
+  width: auto;
+  font-family: 'Montserrat', sans-serif; }
 
 .trabajos__p {
   width: auto;
-  margin-right: 10px; }
+  margin-right: 10px;
+  font-family: 'Montserrat', sans-serif; }
 
 .title__p {
   width: auto;
-  margin-right: 10px; }
+  margin-right: 10px;
+  font-family: 'Montserrat', sans-serif; }
 
 .div__button {
   border: 3px solid white;
@@ -267,7 +273,7 @@ article.gal__cont img:hover {
   .grid-container {
     grid-template-areas: "nosotros" "div" "cursos" "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 500px 20% 30% 10%;
+    grid-template-rows: 500px 20% 30% 100px;
     height: auto;
     grid-row-gap: 5px; }
   .nosotros__box {
@@ -304,7 +310,7 @@ article.gal__cont img:hover {
   .grid-bio {
     grid-template-areas: "pao " "img1 " "escuela " "img2 " "footer ";
     grid-template-columns: auto;
-    grid-template-rows: 30% 15% 30% 15% auto;
+    grid-template-rows: 30% 15% 30% 17% auto;
     grid-column-gap: 2px;
     grid-row-gap: 2px;
     margin: 0;
@@ -313,7 +319,7 @@ article.gal__cont img:hover {
   .grid-cursos {
     grid-template-areas: "encabezado" "tabla" "desc" "desc2" "footer";
     grid-template-columns: auto;
-    grid-template-rows: 8% 18% 25% 20% auto;
+    grid-template-rows: 8% 18% 25% 38% 10%;
     grid-column-gap: 5px;
     grid-row-gap: 5px; }
   .encabezado {
@@ -375,7 +381,7 @@ h1:hover a.box__logo--a {
   text-align: center;
   font-size: 1.4em;
   bottom: 15%;
-  font-family: cursive, serif; }
+  font-family: 'Alegreya', serif; }
 
 ul {
   list-style: none; }
@@ -418,7 +424,7 @@ ul ul li a {
   font-size: 20px; }
 
 li ul {
-  background-color: rgba(66, 119, 115, 0.54);
+  background-color: #074871;
   color: black;
   text-decoration: none;
   border: none;
@@ -426,7 +432,7 @@ li ul {
 
 .navbar--log {
   font-family: 'Amatic SC', cursive;
-  font-size: 2rem; }
+  font-size: 40px !important; }
 
 .footer__box {
   display: flex;
