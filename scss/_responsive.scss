@@ -1,3 +1,17 @@
+@media (max-width: 400px){
+  span p.footer__text--p{
+    display: none;
+  }
+  .footer__text--p2{
+    display: none;
+  }
+  .footer__text--p{
+    margin-top: 30px;
+  }
+  .footer__box--sub{
+    width: 30%;
+  }
+}
 @media (max-width: 976px){
   .grid-container{
     grid-template-areas:
@@ -44,10 +58,12 @@
     margin: 10px;
   }
 
-  .footer__text {
-      text-align: center;
-      width: 100%;
-      margin: 20px 20px;
+  span.footer__text {
+
+  }
+
+  .rs--img{
+    font-size: 17px;
   }
 }
 @media (max-width: 770px){

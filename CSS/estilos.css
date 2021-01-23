@@ -181,7 +181,7 @@ article.gal__cont img:hover {
   display: grid;
   grid-template-areas: "nosotros nosotros" "cursos div" "cursos div" "footer footer";
   grid-template-columns: 50% auto;
-  grid-template-rows: 65% 15% 25% 10%;
+  grid-template-rows: 65% 15% 25% 12%;
   grid-column-gap: 5px;
   margin: 0;
   height: auto; }
@@ -268,6 +268,16 @@ article.gal__cont img:hover {
   grid-area: encabezado;
   margin: 30px 0 0 30px; }
 
+@media (max-width: 400px) {
+  span p.footer__text--p, span p.footer__text--p2 {
+    display: none; }
+  .footer__text--p2 {
+    display: none; }
+  .footer__text--p, .footer__text--p2 {
+    margin-top: 30px; }
+  .footer__box--sub {
+    width: 30%; } }
+
 @media (max-width: 976px) {
   .grid-container {
     grid-template-areas: "nosotros" "div" "cursos" "footer";
@@ -300,10 +310,8 @@ article.gal__cont img:hover {
     margin: 10px; }
   .cursos {
     margin: 10px; }
-  .footer__text {
-    text-align: center;
-    width: 100%;
-    margin: 20px 20px; } }
+  .rs--img {
+    font-size: 17px; } }
 
 @media (max-width: 770px) {
   .grid-bio {
@@ -436,18 +444,28 @@ li ul {
 .footer__box {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  height: 100%; }
+
+.footer__box--sub {
+  display: flex;
+  flex-direction: column;
+  width: 70%; }
 
 .footer__text {
+  display: flex;
   align-self: end;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  text-align: center;
-  font-weight: bold;
   color: white;
-  width: 20%;
-  margin: 10px;
-  margin-top: 15px; }
+  width: 80%;
+  margin: 10px 0 0 20px;
+  height: 50%; }
+
+.footer__text--p, .footer__text--p2 {
+  margin: 0;
+  width: 100%;
+  font-size: 15px;
+  color: white;
+  height: 100%; }
 
 .footer__pie--gal {
   padding: 0;
@@ -462,10 +480,16 @@ li ul {
   font-family: 'Amatic SC', cursive;
   font-size: 2rem;
   color: white;
-  width: 20%;
+  width: 40%;
   margin: 10px;
   margin-top: 15px; }
 
+.footer__box--copy {
+  width: 40%;
+  display: flex;
+  flex-flow: column nowrap; }
+
 .rs--img {
-  width: 2rem;
-  height: 2rem; }
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 10px 0 10px; }
