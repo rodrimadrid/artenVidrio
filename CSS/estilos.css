@@ -70,7 +70,7 @@
   width: 100%; }
 
 .container-fluid__h2 {
-  margin: 25px 0 5px 1.3rem;
+  margin: 25px 0 5px 0;
   font-size: 2rem;
   font-weight: bold; }
 
@@ -99,9 +99,10 @@
 .gal__cont {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 0;
   justify-content: space-around;
   align-content: space-around;
+  width: 100%;
   align-items: center;
   height: 100%; }
 
@@ -304,7 +305,12 @@ article.gal__cont img:hover {
     justify-content: center; }
   .footer__text--p {
     text-align: center;
-    width: 100%; } }
+    width: 100%; }
+  p {
+    text-align: left !important; }
+  .gal__img {
+    height: 100px;
+    width: 150px; } }
 
 @media (max-width: 976px) {
   .grid-container {
