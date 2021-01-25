@@ -39,6 +39,9 @@
   @include set(0, none, 0, center);
   text-align: justify;
 }
+.pao__items--h2{
+  font-weight: bold;
+}
 .escuela__items{
   @extend.pao__items;
   text-align: justify;
@@ -69,6 +72,7 @@
 .container-fluid__h2{
   margin: 25px 0 5px 1.3rem;
   font-size: 2rem;
+  font-weight: bold;
 }
 
 .container-fluid__p{
@@ -158,18 +162,28 @@ font-family: 'Montserrat', sans-serif;
 }
 .div__button{
     border:  3px solid white;
-    background-color: rgba(38, 38, 38, 0.92);
+    background-color: rgba(13, 104, 149, 0.82);
     padding: 10px;
     margin: 10px;
 
   }
   .div__button--link{
-    color: yellow;
+    color: white;
     font-family: arial inherit;
     font-weight: lighter;
     text-decoration: none;
   }
  .div__button:hover a{
    text-decoration: none;
-   color: yellow;
+   color: #42c4db;
  }
+ .form__btm{
+   color: white;
+   background-color: rgba(13, 104, 149, 0.82);
+   font-family: arial inherit;
+   font-weight: lighter;
+ }
+
+.encabezado__h2{
+  font-weight: bold;
+}

@@ -32,6 +32,9 @@
   align-self: center;
   text-align: justify; }
 
+.pao__items--h2 {
+  font-weight: bold; }
+
 .escuela__items {
   text-align: justify; }
 
@@ -68,7 +71,8 @@
 
 .container-fluid__h2 {
   margin: 25px 0 5px 1.3rem;
-  font-size: 2rem; }
+  font-size: 2rem;
+  font-weight: bold; }
 
 .container-fluid__p {
   margin: 1.3rem;
@@ -154,19 +158,28 @@ article.gal__cont img:hover {
 
 .div__button {
   border: 3px solid white;
-  background-color: rgba(38, 38, 38, 0.92);
+  background-color: rgba(13, 104, 149, 0.82);
   padding: 10px;
   margin: 10px; }
 
 .div__button--link {
-  color: yellow;
+  color: white;
   font-family: arial inherit;
   font-weight: lighter;
   text-decoration: none; }
 
 .div__button:hover a {
   text-decoration: none;
-  color: yellow; }
+  color: #42c4db; }
+
+.form__btm {
+  color: white;
+  background-color: rgba(13, 104, 149, 0.82);
+  font-family: arial inherit;
+  font-weight: lighter; }
+
+.encabezado__h2 {
+  font-weight: bold; }
 
 .grid-bio {
   display: grid;
@@ -214,7 +227,11 @@ article.gal__cont img:hover {
 
 .nav {
   grid-area: nav;
-  background-color: #074871; }
+  background-color: #074871;
+  width: 100%;
+  height: 70px;
+  position: fixed !important;
+  z-index: 100; }
 
 .div {
   grid-area: div;
@@ -495,11 +512,17 @@ li ul {
 
 .footer__box--logo {
   font-family: 'Amatic SC', cursive;
-  font-size: 2rem;
-  color: white;
   width: 40%;
   margin: 10px;
   margin-top: 15px; }
+
+.footer__box--link {
+  color: white;
+  font-size: 2rem; }
+
+.footer__box--logo:hover a {
+  text-decoration: none;
+  color: white; }
 
 .footer__box--copy {
   width: 40%;

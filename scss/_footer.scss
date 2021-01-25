@@ -42,12 +42,17 @@
 
 .footer__box--logo{
   font-family: 'Amatic SC', cursive;
-  font-size: 2rem;
-  color: white;
   width: 40%;
   margin: 10px;
   margin-top: 15px;
-
+}
+.footer__box--link{
+  color: white;
+  font-size: 2rem;
+}
+.footer__box--logo:hover a{
+  text-decoration: none;
+  color: white;
 }
 .footer__box--copy{
   width: 40%;
