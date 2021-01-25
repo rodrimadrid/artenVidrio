@@ -1,15 +1,30 @@
-@media (max-width: 400px){
-  span p.footer__text--p{
-    display: none;
+@media (max-width: 660px){
+  .footer__box{
+    flex-direction: column !important;
   }
-  .footer__text--p2{
-    display: none;
+  .footer{
+    height: 350px;
   }
-  .footer__text--p{
-    margin-top: 30px;
+  .footer__box{
+    align-items: center;
+  }
+  .footer__box--logo{
+    text-align: center;
   }
   .footer__box--sub{
-    width: 30%;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer__text{
+    justify-content: center;
+  }
+  .footer__text--img{
+    justify-content: center;
+  }
+  .footer__text--p{
+    text-align: center;
+    width: 100%;
   }
 }
 @media (max-width: 976px){
