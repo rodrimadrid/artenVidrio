@@ -6,7 +6,6 @@
 .footer__box--sub{
   display: flex;
   flex-direction: column;
-
   width: 70%;
 }
 .footer__text{
@@ -18,15 +17,24 @@
     margin: 10px 0 0 20px;
     height: 50%;
 }
-.footer__text--p{
+@mixin set ($width, $font, $color, $height){
+  width: $width;
+  font-size: $font;
+  color: $color;
+  height: $height;
+}
+.footer__text--img{
+  @include set(55%, 15px, white, 100%);
   margin: 0;
-  width: 100%;
-  font-size: 15px;
-  color: white;
-  height: 100%;
+}
+.footer__text--p{
+  @include set(55%, 15px, white, 80%);
+  margin-top: 15px;
 }
 .footer__text--p2{
-@extend.footer__text--p;
+  @include set(55%, 15px, white, 80%);
+  margin-top: 15px;
+
 }
 .footer__pie--gal{
   padding: 0;
