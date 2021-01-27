@@ -10,9 +10,6 @@
   align-self: $align;
 }
 .carousel-item_img{
-  border: 3px;
-  border-style: solid;
-  border-color: black;
   width: auto;
 }
 .carousel-inner--align{
@@ -114,8 +111,6 @@ article.gal__cont img:hover {
 }
 .gal__img{
   margin: 0;
-  border: 3px;
-  border-style: solid;
   transition: 1s;
 }
 
