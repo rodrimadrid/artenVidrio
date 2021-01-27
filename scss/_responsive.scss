@@ -26,9 +26,6 @@
     text-align: center;
     width: 100%;
   }
-  p{
-    text-align: left !important;
-  }
   .gal__img{
     height: 100px;
     width: 150px;
@@ -37,7 +34,16 @@
       transform: scale(1.2);
   }
   .gal{
-    height: 100% !important; 
+    height: 100% !important;
+  }
+  .pao__items{
+    text-align: left;
+  }
+  .escuela__items{
+    text-align: left;
+  }
+  .container-fluid__p{
+    text-align: left;
   }
 }
 

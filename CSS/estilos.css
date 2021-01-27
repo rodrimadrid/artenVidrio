@@ -302,15 +302,19 @@ article.gal__cont img:hover {
   .footer__text--p {
     text-align: center;
     width: 100%; }
-  p {
-    text-align: left !important; }
   .gal__img {
     height: 100px;
     width: 150px; }
   article.gal__cont img:hover {
     transform: scale(1.2); }
   .gal {
-    height: 100% !important; } }
+    height: 100% !important; }
+  .pao__items, .escuela__items {
+    text-align: left; }
+  .escuela__items {
+    text-align: left; }
+  .container-fluid__p {
+    text-align: left; } }
 
 @media (max-width: 976px) {
   .grid-container {
