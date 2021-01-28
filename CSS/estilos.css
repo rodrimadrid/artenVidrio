@@ -89,27 +89,6 @@
   border: 1px solid black;
   opacity: 0.6; }
 
-.gal {
-  height: 100%;
-  background-color: white; }
-
-.gal__cont {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  justify-content: space-around;
-  align-content: space-around;
-  width: 100%;
-  align-items: center;
-  height: 100%; }
-
-article.gal__cont img:hover {
-  transform: scale(1.1); }
-
-.gal__img {
-  margin: 0;
-  transition: 1s; }
-
 .nosotros__box {
   display: flex;
   flex-flow: row nowrap;
