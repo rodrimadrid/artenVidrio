@@ -29,9 +29,9 @@
 .grid-nav{
   display: grid;
   grid-template-areas:
-  "nav nav nav"
-  "header header header";
-  grid-template-columns: 33% 33% 33%;
+  "nav"
+  "header";
+  grid-template-columns: 100%;
   grid-template-rows: 70px 130px;
   grid-column-gap: 5px;
   margin: 0;
@@ -101,10 +101,12 @@
 .pao{
  grid-area: pao;
  margin: $my_margin;
+ margin-right: 0;
 }
 .escuela{
   grid-area: escuela;
   margin: $my_margin;
+  margin-right: 0;
 }
 .tabla{
   grid-area: tabla;
